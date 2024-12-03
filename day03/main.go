@@ -10,7 +10,7 @@ import (
 )
 
 func main() {
-	filename := "./input3.txt"
+	filename := "./input.txt"
 
 	// Open the file
 	file, err := os.Open(filename)

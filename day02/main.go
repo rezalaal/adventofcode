@@ -47,7 +47,7 @@ func checkLevels(fields []string) bool {
 }
 
 func main() {
-	file, err := os.Open("./input2.txt")
+	file, err := os.Open("./input.txt")
 	if err != nil {
 		fmt.Println(err)
 		return

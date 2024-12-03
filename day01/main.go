@@ -13,7 +13,7 @@ import (
 
 
 func main() {
-	file, err := os.Open("./input1.txt")
+	file, err := os.Open("./input.txt")
 	if err != nil {
 		fmt.Println(err)
 		return
